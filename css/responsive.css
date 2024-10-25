@@ -1,0 +1,137 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .section-break{
+    margin-top: 90px;
+  }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .top-bannar {
+    min-height: 720px;
+  }
+  .bannar-text h1 {
+    font-size: 65px;
+  }
+  .section-title h1 {
+    font-size: 46px;
+  }
+  .section-break{
+    margin-top: 80px;
+  }
+  .navbar .collapse li{
+    padding: 5px;
+  }
+  .navbar .navbar-icon .social{
+    /* background: #000; */
+  }
+}
+
+/* Tablet desktop :768px. (md)*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-collapse {
+    margin-top: 33px;
+  }
+  .nav-item {
+    border-bottom: 1px solid #fff;
+    width: 100%;
+  }
+  .nav-link {
+    color: #fff !important;
+  }
+  .top-bannar {
+    min-height: 650px;
+  }
+  .bannar-text h1 {
+    font-size: 60px;
+    }
+    .food-type{
+        margin-bottom: 0px;
+    }
+    .section-break{
+      margin: 60px 0 50px;
+    }
+}
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .food-type{
+        margin-bottom: 0px;
+    }
+    .section-break{
+      margin-top: 40px;
+    }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .nav-link {
+        font-size: 12px;
+  }
+  .top-bannar {
+      min-height: 500px;
+    }
+    .bannar-text h1 {
+    font-size: 28px;
+    margin: 14px 0 29px;
+  }
+  .main-btn {
+      padding-inline: 30px;
+  }
+  .section-title h1 {
+      font-size: 28px;
+  }
+  .food-type{
+      margin-bottom: 0px;
+  }
+  .service{
+      margin: 0px 0px;
+  }
+  .section-break{
+    margin-top: 40px;
+  }
+  .navbar-icon{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+  }
+  .navbar-icon i{
+    color: #fff !important;
+  }
+}
+
+
+
+/* Tab and Mobile screen */
+@media (max-width: 991px) {
+  .navbar-nav{
+    background: #0c1923 !important;
+    color: #fff !important;
+  }
+  .collapse{
+    padding-left: 20px;
+    background: #0c1923 !important;
+  }
+  .navbar-collapse {
+    margin-top: 33px;
+  }
+  .nav-link{
+    color: #fff !important;
+  }
+}
+@media (max-width: 992px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    height: auto;
+    background: #fff;
+    width: 100%;
+    padding: 20px 0px;
+    width: 100%;
+  }
+  .nav-link::before{
+    display: none;
+  }
+}
